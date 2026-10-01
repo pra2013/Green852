@@ -1,0 +1,4 @@
+#Install the required packages to run the application
+streamlit
+folium
+streamlit-folium
