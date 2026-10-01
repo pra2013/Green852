@@ -19,6 +19,19 @@ base="light"
         color: white; 
         border-radius: 6px;
     }
+    @media(prefers-color-scheme: dark) {
+    .stApp{
+        background-color: #0e1b0e
+    }
+    h1, h2, h3 {
+        color: #81c784
+    }
+    div.stButton > button{
+        background-color: #66bb6a;
+        color: black;
+        border-radius: 6px;
+    }
+
 </style>
 """, unsafe_allow_html=True)
 
