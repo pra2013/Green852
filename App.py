@@ -6,6 +6,7 @@ from streamlit_folium import st_folium
 # Colour Scheme
 st.set_page_config(page_title="Green852", page_icon= "🌱", layout="centered")
 st.markdown("""
+base="light"
 <style>
     .stApp {
         background-color: #f4f9f4;
